@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "8c79165a-deb1-4dd8-83e0-e9e1c6ab912d",
+  "alias": "UserChecklistWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "User Checklist" },
+    "description": { "default": "A user checklist for SharePoint to add items or tasks and track user completion of these tasks." },
+    "officeFabricIconFontName": "BulletedList",
+    "properties": {
+      "description": "User Checklist"
+    }
+  }]
+}

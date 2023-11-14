@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "user-checklist-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/userChecklist/UserChecklistWebPart.js",
+          "manifest": "./src/webparts/userChecklist/UserChecklistWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UserChecklistWebPartStrings": "lib/webparts/userChecklist/loc/{locale}.js"
+  }
+}

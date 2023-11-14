@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.19.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "user-checklist",
+    "libraryId": "59075272-c081-4e5f-b493-d8a44b5a1a0e",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "User Checklist",
+    "solutionShortDescription": "User Checklist description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
